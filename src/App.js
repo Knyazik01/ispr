@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import CreditForm from './components/CreditForm';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <h1>Перевірте можливість отримання кредиту</h1>
+      <CreditForm
+        className='crereditForm'
+      />
     </div>
   );
 }
